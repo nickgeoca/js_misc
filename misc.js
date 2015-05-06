@@ -5,7 +5,7 @@ function jsQuadraticCurveTo(ctx, cpx, cpy, x, y) {
 // https://github.com/mudcube/MIDI.js/blob/master/js/midi/loader.js
 function jsMidiLoadPlugin(){
     MIDI.loadPlugin({
-	soundfontUrl: "http://www.caseyrule.com/projects/midi/soundfonts/FluidR3_GM/",
+	soundfontUrl: "https://rawgit.com/nickgeoca/js_misc/master/",
 	instrument  : "acoustic_grand_piano",
 	onsuccess   : function() { }
 	});
