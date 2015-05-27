@@ -22,6 +22,6 @@ function jsPerformanceNow() {
     return performance.now();
 }
 
-function jsClearRect(ctx, x1, y1, x2, y2) {
-    ctx.clearRect(x1,y1,x2,y2);
+function jsClearRect(ctx, x, y, w, h) {
+    ctx.clearRect(x,y,w,h);
 }
