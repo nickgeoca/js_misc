@@ -21,3 +21,8 @@ function jsMidiNoteOff(channel, note, delay) {
 function jsPerformanceNow() {
     return performance.now();
 }
+
+function jsClearRect(c, x1, y1, x2, y2) {
+    var ctx=c.getContext("2d");
+    ctx.clearRect(x1,y1,x2,y2);
+}
